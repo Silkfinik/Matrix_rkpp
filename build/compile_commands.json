@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/silkfinik/VS Code/cpp/Matrix_rkpp/build",
+  "command": "/usr/bin/clang++-18 -I\"/home/silkfinik/VS Code/cpp/Matrix_rkpp/include\" -g -std=gnu++17 -o CMakeFiles/Matrix_rkpp.dir/main.cpp.o -c \"/home/silkfinik/VS Code/cpp/Matrix_rkpp/main.cpp\"",
+  "file": "/home/silkfinik/VS Code/cpp/Matrix_rkpp/main.cpp"
+},
+{
+  "directory": "/home/silkfinik/VS Code/cpp/Matrix_rkpp/build",
+  "command": "/usr/bin/clang++-18 -I\"/home/silkfinik/VS Code/cpp/Matrix_rkpp/include\" -g -std=gnu++17 -o CMakeFiles/Matrix_rkpp.dir/src/Matrix.cpp.o -c \"/home/silkfinik/VS Code/cpp/Matrix_rkpp/src/Matrix.cpp\"",
+  "file": "/home/silkfinik/VS Code/cpp/Matrix_rkpp/src/Matrix.cpp"
+},
+{
+  "directory": "/home/silkfinik/VS Code/cpp/Matrix_rkpp/build",
+  "command": "/usr/bin/clang++-18 -I\"/home/silkfinik/VS Code/cpp/Matrix_rkpp/include\" -g -std=gnu++17 -o CMakeFiles/Matrix_rkpp.dir/src/Rational.cpp.o -c \"/home/silkfinik/VS Code/cpp/Matrix_rkpp/src/Rational.cpp\"",
+  "file": "/home/silkfinik/VS Code/cpp/Matrix_rkpp/src/Rational.cpp"
+}
+]

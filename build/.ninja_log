@@ -1,0 +1,5 @@
+# ninja log v5
+1	566	1713625205224725700	CMakeFiles/Matrix_rkpp.dir/main.cpp.o	8a3f8be0b7b1083c
+3	661	1713558636607511876	CMakeFiles/Matrix_rkpp.dir/src/Rational.cpp.o	50b1d123360da2a6
+600	733	1713624363358089057	Matrix_rkpp	580ba086481e0522
+0	37	1713459466118636965	CMakeFiles/Matrix_rkpp.dir/src/Matrix.cpp.o	d08fb4d5e344d852

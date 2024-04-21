@@ -1,0 +1,3 @@
+/home/silkfinik/VS Code/cpp/Matrix_rkpp/build/CMakeFiles/Matrix_rkpp.dir
+/home/silkfinik/VS Code/cpp/Matrix_rkpp/build/CMakeFiles/edit_cache.dir
+/home/silkfinik/VS Code/cpp/Matrix_rkpp/build/CMakeFiles/rebuild_cache.dir
