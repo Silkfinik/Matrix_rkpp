@@ -51,21 +51,21 @@ build cmake_object_order_depends_target_Matrix_rkpp: phony || CMakeFiles/Matrix_
 
 build CMakeFiles/Matrix_rkpp.dir/main.cpp.o: CXX_COMPILER__Matrix_rkpp_Debug /home/silkfinik/VS$ Code/cpp/Matrix_rkpp/main.cpp || cmake_object_order_depends_target_Matrix_rkpp
   DEP_FILE = CMakeFiles/Matrix_rkpp.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++17
+  FLAGS = -g -D_GLIBCXX_DEBUG -std=gnu++17
   INCLUDES = -I"/home/silkfinik/VS Code/cpp/Matrix_rkpp/include"
   OBJECT_DIR = CMakeFiles/Matrix_rkpp.dir
   OBJECT_FILE_DIR = CMakeFiles/Matrix_rkpp.dir
 
 build CMakeFiles/Matrix_rkpp.dir/src/Matrix.cpp.o: CXX_COMPILER__Matrix_rkpp_Debug /home/silkfinik/VS$ Code/cpp/Matrix_rkpp/src/Matrix.cpp || cmake_object_order_depends_target_Matrix_rkpp
   DEP_FILE = CMakeFiles/Matrix_rkpp.dir/src/Matrix.cpp.o.d
-  FLAGS = -g -std=gnu++17
+  FLAGS = -g -D_GLIBCXX_DEBUG -std=gnu++17
   INCLUDES = -I"/home/silkfinik/VS Code/cpp/Matrix_rkpp/include"
   OBJECT_DIR = CMakeFiles/Matrix_rkpp.dir
   OBJECT_FILE_DIR = CMakeFiles/Matrix_rkpp.dir/src
 
 build CMakeFiles/Matrix_rkpp.dir/src/Rational.cpp.o: CXX_COMPILER__Matrix_rkpp_Debug /home/silkfinik/VS$ Code/cpp/Matrix_rkpp/src/Rational.cpp || cmake_object_order_depends_target_Matrix_rkpp
   DEP_FILE = CMakeFiles/Matrix_rkpp.dir/src/Rational.cpp.o.d
-  FLAGS = -g -std=gnu++17
+  FLAGS = -g -D_GLIBCXX_DEBUG -std=gnu++17
   INCLUDES = -I"/home/silkfinik/VS Code/cpp/Matrix_rkpp/include"
   OBJECT_DIR = CMakeFiles/Matrix_rkpp.dir
   OBJECT_FILE_DIR = CMakeFiles/Matrix_rkpp.dir/src
@@ -79,7 +79,7 @@ build CMakeFiles/Matrix_rkpp.dir/src/Rational.cpp.o: CXX_COMPILER__Matrix_rkpp_D
 # Link the executable Matrix_rkpp
 
 build Matrix_rkpp: CXX_EXECUTABLE_LINKER__Matrix_rkpp_Debug CMakeFiles/Matrix_rkpp.dir/main.cpp.o CMakeFiles/Matrix_rkpp.dir/src/Matrix.cpp.o CMakeFiles/Matrix_rkpp.dir/src/Rational.cpp.o
-  FLAGS = -g
+  FLAGS = -g -D_GLIBCXX_DEBUG
   OBJECT_DIR = CMakeFiles/Matrix_rkpp.dir
   POST_BUILD = :
   PRE_LINK = :

@@ -5,6 +5,9 @@ project(Matrix_rkpp)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Добавляем опцию отладки для компиляции с дополнительными проверками GLIBC++.
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -D_GLIBCXX_DEBUG")
+
 # Укажем директорию с заголовочными файлами
 include_directories(include)
 
